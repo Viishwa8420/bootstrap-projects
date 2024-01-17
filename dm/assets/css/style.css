@@ -1,0 +1,446 @@
+.py-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.px-50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-main {
+  color: #b92b2b !important;
+}
+
+.bg-main {
+  background-color: #b92b2b !important;
+}
+
+.text-color {
+  color: #030202 !important;
+}
+
+.black-10 {
+  color: #ffffff !important;
+}
+
+.text-bg-main {
+  background-color:#ffffff!important;
+}
+
+.bg-10 {
+  background-color:#ffffff  !important;
+}
+
+.black-50 {
+  color: #141414 !important;
+}
+
+.black-60 {
+  color: #0f0f0f !important;
+}
+
+.bg-60 {
+  background-color: #0f0f0f !important;
+}
+
+.black-20 {
+  color: #000000 !important;
+}
+
+.black-80 {
+  color: #666666 !important;
+}
+
+.bg-black-80 {
+  background-color:#d2b48c  !important;
+}
+
+.open {
+  font-family: 'Open Sans';
+}
+
+body {
+  font-family: 'Poppins';
+  background:#ffffff;
+}
+.text-grad{
+  background: linear-gradient(90deg, rgba(213,60,127,1) 0%, rgba(40,170,219,0.5747549019607843) 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fs-51 {
+  font-size: 51px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-34 {
+  font-size: 34px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-110 {
+  font-size: 110px;
+}
+
+.fs-140 {
+  font-size: 140px;
+}
+
+.fs-26 {
+  font-size: 26px;
+}
+
+.fs-50 {
+  font-size: 50px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-55 {
+  font-size: 55px;
+}
+
+.fs-28 {
+  font-size: 28px;
+}
+
+.fs-70 {
+  font-size: 70px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.collapse ul li a {
+  transition: 0.7s;
+}
+
+.collapse ul li a:hover {
+  color: #000000 !important;
+}
+
+.search ul li a i {
+  transition: 0.5s;
+}
+
+.search ul li a i:hover {
+  color: #000000 !important;
+}
+
+.dropdown-item {
+  transition: 0.5s;
+}
+
+.dropdown-item:hover {
+  color: #b92b2b!important;
+  background-color: transparent !important;
+
+}
+
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  transform: translateX(-200px);
+}
+
+
+.contact ul li a:hover {
+  color:  #b92b2b !important;
+}
+
+.contact ul li a {
+  color: #595050;
+  transition: 0.5s;
+}
+
+.right,
+.payment {
+  transition: 0.5s;
+}
+
+.right:hover,
+.payment:hover {
+  color: #b92b2b;
+}
+
+.payment img,
+form button {
+  transition: 1s;
+}
+
+.box i {
+  transition: 1s !important;
+}
+
+form button,
+.card .btn{
+  transition: all 1s !important;
+  color:white !important;
+  background-color: #b92b2b !important;
+} 
+
+.payment img:hover,
+.box i:hover {
+  transform: translateY(-10px);
+  color: #b92b2b !important; 
+}
+.card .btn:hover,
+form button:hover{
+  background-color: #ffffff !important;
+  color: #b92b2b !important;
+  transform: translateY(-10px);
+}
+
+.scrollToTop {
+  background: #ffffff;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  display: none;
+  z-index: 99;
+  border: 1px solid black;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+
+.scrollToTop:hover {
+  text-decoration: none;
+  opacity:1.1;
+  background-color: #c32626;
+}
+
+.scrollToTop .scrollarrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 15px 10px;
+  border-color: transparent transparent #303030;
+  display: block;
+  margin: 20px auto 0;
+}
+.swiper-wrapper img ,
+.card-deal .card img{
+  width: 100%;
+  overflow: hidden;
+  transition: all 1s;
+}
+.product  .card-img-top {
+  width: 100%;
+  overflow: hidden;
+  transition: all 1s;
+}
+.swiper-wrapper img:hover,
+.card-deal .card img:hover {
+ transform: scale(0.9);
+ 
+}
+.product .card-img-top:hover {
+ transform: scale(1.07);
+ 
+}
+
+[swiper_scale_active] .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 20px;
+  border-color: transparent;
+ 
+  /* shadow */
+  box-shadow: 0 0 100px 40px var(--main-bg-color);
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  [swiper_scale_active] .swiper-slide {
+    border-radius: 10px;
+  }
+}
+
+[swiper_scale_active] .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* CUSTOM CSS "TRICK" => the link should work only on the active slide  */
+[swiper_scale_active] .swiper-slide:not(.swiper-slide-active) a{
+  pointer-events: none;
+}
+
+/* #### CUSTOM NEXT/PREV #### */
+[btn_group]{
+  text-align: center;
+  margin-top: 16px;
+}
+
+[btn_group] button{
+  background: transparent;
+  padding: 10px 16px;
+  border-width: 0px;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: opacity 0.5s linear;
+}
+
+[btn_group] button:hover{
+  opacity: 1;
+}
+
+[btn_group] svg{
+  color: white;
+}
+*{margin:0;padding:0;}
+
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:400,700');
+
+.page{
+  display:flex;
+  width: 100vw;
+  height: 20vh;
+  justify-content: center;
+  align-items:center;
+}
+
+.box{
+  text-align: center;
+  overflow:hidden;
+}
+.subhead{
+  /*tbd*/
+  font-family:'Overpass Mono';
+  text-transform:uppercase;
+  font-size:1.3rem;
+}
+#headline{}
+.headline{
+  font-family: 'Overpass Mono', monospace;
+  font-weight:700;
+  font-size:5rem;
+  text-transform:uppercase;
+  will-change: tranform;
+  transform:translateY(90px);
+  transition: all .2s cubic-bezier(0,0,0,.99);
+}
+.rev{
+  transform:translateY(0px);
+}
+.our button{
+  transition: 1s !important;
+}
+.our button:hover{
+ transform:translateY(-10px);
+}
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 60px;
+  height: 55px;
+  margin: 0 50px;
+  background-color: #fff;
+  border-radius: 6px;
+  transition: all 0.5s ease-in-out;
+}
+.input-box.open {
+  max-width: 350px;
+}
+.input-box input {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  padding: 0 15px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+.input-box.open input {
+  padding: 0 15px 0 65px;
+}
+
+.input-box .search {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.input-box.open .search {
+  border-radius: 6px 0 0 6px;
+}
+.search .search-icon {
+  font-size: 30px;
+  color: #1c1c1c;
+}
+.input-box .close-icon {
+  position: absolute;
+  top: 50%;
+  right: -45px;
+  font-size: 30px;
+  color: #1c1c1c;
+  padding: 5px;
+  transform: translateY(-50%);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  pointer-events: none;
+  opacity: 0;
+}
+.input-box.open .close-icon {
+  transform: translateY(-50%) rotate(180deg);
+  pointer-events: auto;
+  opacity: 1;
+}

@@ -1,0 +1,29 @@
+.text-main {
+  color: #0b5394 !important;
+}
+
+.bg-main {
+  background-color:  #daebf6 !important;
+}
+
+.black-20 {
+  color: #8f8f8f;
+}
+
+.black-80 {
+  color: #666666;
+}
+.fs-25{
+  font-size:25px;
+}
+.fs-48{
+  font-size:48px;
+}
+
+.open {
+  font-family: 'Open Sans';
+}
+
+.body {
+  font-family: 'Poppins';
+}

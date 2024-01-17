@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/fonts.css" rel="stylesheet">
+    <link href="assets/img/logo-1.png" rel="icon">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+<style>
+@media (min-width:50px) {
+
+   body {
+        max-width: 540px
+    }
+
+}
+
+@media (min-width:768px) {
+
+    body {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+
+    body{
+        max-width: 960px
+    }
+
+}
+
+@media (min-width:1200px) {
+
+    body{
+        max-width: 1140px
+    }
+    .background{
+  width: 100%;
+ 
+  left:-10px ;
+}
+}
+
+@media (min-width:1400px) {
+
+    body {
+        max-width: 1320px
+    }
+    .background{
+  width: 100%;
+ 
+  left:-10px ;
+}
+}
+@media (min-width:1900px) {
+
+body {
+    max-width: 1880px;
+}
+.background{
+width: 100%;
+
+left: -10px;
+}
+}
+
+
+</style>
+    
+</head>
+<body style="  width:1900px;
+--bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+position: relative;
+  
+ ">
+ 
+ <div id="trail-cursor" data-circle="30"></div>
+ <img src="assets/img/back2.png" class="background position-absolute visibility-sm-hidden  visibility-md-hidden" alt="">
+         
+ <nav class="navbar navbar-d-lg-none">
+           
+    <a class="navbar-brand d-xl-none" href="#"><img src="assets/img/logo.png" width="300px"></a>
+    <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-xl-none" id="navbarNav">
+      <ul class="navbar-nav text-uppercase fs-20 px-50">
+        <li class="nav-item">
+          <a class="nav-link active text-main" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link black-80" href="about.html">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link black-80" href="portfolio.html">portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link black-80" href="contact.html">contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link black-80" href="blog.html">blog</a>
+        </li>
+       
+      </ul>
+    </div>
+  
+</nav>
+
+    <section class="position-relative pt-5" >
+
+            <div class="row">
+
+
+                <div class="col-12 d-xl-flex d-xxl-flex  justify-content-around align-items-center">
+
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5 col-xxl-5">
+                        <div class="content">   
+                            
+                            <img src="assets/img/profile-vish.jpg" class="img-thumbnail img-fluid border-primary w-100 rounded-circle"
+                                style="object-fit:cover; height:800px;">
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5 col-xxl-5 pt-5 text-sm-center text-md-center py-12">
+                        <div class="banner-content">
+                            <h1>
+                                <span class="blockquote-footer fw-bold text-main fs-51">
+                                    I'M VISHWA CHAUHAN.
+                                </span>
+                                <span class="black-80 fw-bold fs-51">WEB DEVELOPER</span>
+                            </h1>
+
+                            <p class="fs-20 my-4 black-80" style=" font-weight:400; line-height:2;">
+                                I'm a Full
+                                stack developer focused on crafting clean & user‑friendly experiences, I am passionate
+                                about
+                                building excellent software that improves the lives of those around me.</p>
+                        </div>
+                        <div class="more" style=" ">
+                            <button class=""><a href="about.html" class="text-decoration-none text-uppercase pb-5 pe-5 black-80">MORE ABOUT ME<i
+                                        class="fa-solid fa-arrow-right bg-main "></i></a></button>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+      
+    </section>
+    <div class="badge d-none d-xl-block" style="position:fixed; right:0; top:180px;">
+       
+        <div id="menu">
+            <a href="index.html" class="snip1092" target="_blank"><i class="fa-solid fa-house-chimney"></i></a>
+            <a href="about.html" class="snip1092" target="_blank"><i class="fa-solid fa-user"></i></a>
+            <a href="portfolio.html" class="snip1092" target="_blank"><i class="fa-solid fa-briefcase"></i></a>
+            <a href="contact.html" class="snip1092" target="_blank"><i class="fa-solid fa-phone"></i></a>
+            <a href="blog.html" class="snip1092" target="_blank"><i class="fa-solid fa-comments"></i></a>
+        </div>
+
+    </div>
+
+
+    
+
+    <!-- banner end -->
+
+  
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        /* Demo purposes only */
+        $("a").mouseleave(
+            function () {
+                $(this).removeClass("hover");
+            }
+        );
+    </script>
+
+<script>let trailCursor = document.querySelector("#trail-cursor");
+    let circles = trailCursor.getAttribute("data-circle");
+    let coords = {
+        x: 0,
+        y: 0
+    };
+    
+    for (i = 0; i < circles; i++) {
+        let div = document.createElement("div");
+        div.className = "circle";
+        trailCursor.appendChild(div);
+    }
+    
+    let allCricles = document.querySelectorAll(".circle");
+    allCricles.forEach((el) => {
+        el.x = 0;
+        el.y = 0;
+    });
+    
+    window.addEventListener("mousemove", function (e) {
+        coords.x = e.clientX;
+        coords.y = e.clientY;
+    });
+    
+    function animeCircle() {
+        let x = coords.x;
+        let y = coords.y;
+    
+        allCricles.forEach((el, index) => {
+            el.style.left = x - el.clientHeight / 2 + "px";
+            el.style.top = y - el.clientHeight / 2 + "px";
+    
+            el.style.scale = (allCricles.length - index) / allCricles.length;
+    
+            el.x = x;
+            el.y = y;
+    
+            let nxtCrcl = allCricles[index + 1] || allCricles[0];
+            x += (nxtCrcl.x - x) * 0.3;
+            y += (nxtCrcl.y - y) * 0.3;
+        });
+    
+        requestAnimationFrame(animeCircle);
+    }
+    
+    animeCircle();
+    </script>
+</body>
+
+</html>
